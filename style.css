@@ -3,6 +3,11 @@
     padding: 0px;
     margin: 0px;
 }
+
+/* <!-- common-style --> */
+.common-colour{
+   
+} 
 /* <!-- nav section --> */
 .nav{
     display: flex;
@@ -16,7 +21,7 @@ padding: 0px 240px;
    
     
 }
-span{
+.nav span{
     color: #FF42A5;
 }
 .logo-img{
@@ -120,7 +125,10 @@ font-weight: 600;
   padding-bottom: 20px;
 font-size: 70px;
 font-weight: 800;
-color:  linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
 } 
   
@@ -188,6 +196,10 @@ border: none;
         font-size: 48px;
         font-weight: 700;
         margin-bottom: 20px;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .gamer-info p{
         color: #534C64;
@@ -261,6 +273,122 @@ margin-bottom: 25px;
     margin-top: 15px;
     margin-left: 10px;
 
+}
+        /* games-banner */
+.games-banner{
+    justify-content: center;
+    align-items: center;
+    margin: 0px 270px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.games-banner-titel{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
+
+
+.games-banner h2{
+    font-size: 48px;
+
+font-weight: 700;
+
+}
+.games-banner .h2-2{
+    margin-bottom: 20px;
+}
+.titel{
+    padding-bottom: 295px;
+}
+.games-banner p{
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+}
+.games-banner-img1 img{
+   
+    width: 534px;
+    height: 550px;
+}
+
+.games-banner-img2{
+    position: relative;
+    top: -250px;
+    left: -172px;
+}
+.games-banner-img2 img{
+    width: 318px;
+height: 365px;
+}
+
+                    /* games-types */
+
+.first-line{
+    
+    display: flex;
+    height: 100px;
+    
+    padding: 0px 260px;
+    
+}
+.common-div{
+    height: 100px;
+width:200px ;
+
+}
+.common-div img{
+
+    padding-top: 22px;
+}
+.common-div p{
+    padding-top: 22px;
+
+}
+
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 1920px;
+height: 536px;
+background: #0B0223;
+color: white;
+
+}
+.main-footer ul li{
+    flex-direction: row;
+
+}
+.service{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.logo-img{
+    padding-bottom: 40px;
+}
+.service i{
+    padding: 0px 20px;
+    font-size: 30px;
+}
+.service li{
+    /* margin: 0px 40px; */
+    padding: 0px 30px;
+    list-style: none;
+
+}
+.logo-img span{
+    color: #F948B2;
+}
+.common-colour{
+    color:rgba(255, 255, 255, 0.60);
 }
 
 
