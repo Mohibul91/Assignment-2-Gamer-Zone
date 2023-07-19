@@ -120,8 +120,11 @@ font-weight: 600;
   padding-bottom: 20px;
 font-size: 70px;
 font-weight: 800;
+color:  linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 
 } 
+  
+
 .info p{
     padding-bottom: 10px;
     font-size: 20px;
@@ -130,7 +133,11 @@ font-weight: 800;
 }   
  .info i{
     margin-right: 10px;
- }  
+ } 
+ .play{
+   color: #FF42A5 ; 
+ }
+
    .btn-pink{
     
 padding: 21px 40px;
@@ -154,9 +161,63 @@ border: none;
         border-radius: 48px;
         border: none;
         margin-left: 20px;
+
 }
 
+            /* gamer section */
    
+            .gamer{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+               
+                align-items: center;
+                background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+            }
+    .gamer-info{
+        text-align: right;
+        padding-right: 230px;
+    }
+    .gamer-img{
+        
+        
+        padding-left:  240px;
+
+    }
+    .gamer-info h1{
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .gamer-info p{
+        color: #534C64;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .gamer-info button{
+        padding: 15px 30px;
+        background-color: #FF42A5; 
+        font-size: 20px;
+        font-weight: 600;
+        color: #FFF;
+        border-radius: 48px;
+        border: none;
+        margin-left: 20px;
+        margin-bottom: 20px;
+
+    }
+    .btm-titel p{
+        font-size: 25px;
+        
+
+    }
+    section{
+        margin-top: 60px;
+    }
+    
+
+        
 
 
      
