@@ -3,7 +3,7 @@
     padding: 0px;
     margin: 0px;
 }
-
+/* <!-- nav section --> */
 .nav{
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@ span{
 margin-left: 30px;
 border-radius: 8px;
 background-color: rgba(11, 2, 35, 0.10);
-padding: 16px 46px ;
+padding: 14px 46px ;
 
 align-items: center;
 display: flex;
@@ -72,10 +72,91 @@ display: flex;
     margin-left: 20px;
     font-size: 30px;
     color: red;
-
-
-  
-
-    
 }
 
+               /* banner section */
+        
+.banner{
+   
+    height: 600px;
+    width: 100%;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+} 
+.banner-img{
+padding-right: 226px;
+}
+.banner-img img{
+height: 600px;
+width: 700px ;
+
+} 
+ 
+.banner-contant{
+    background-size: cover;
+    background-image: url(images/Group\ 14.png);
+    padding-left: 226px;
+    width: 78%;
+    height: 600px;
+    
+    background-repeat: no-repeat;
+
+}
+.contant{
+    
+    height: 300px;
+    width: 465px;
+    padding-top: 100px;
+    padding-left: 15px
+    
+} 
+.contant h2{
+  padding-bottom: 20px;
+font-size: 40px;
+font-weight: 600;
+}    
+.contant h1{
+  padding-bottom: 20px;
+font-size: 70px;
+font-weight: 800;
+
+} 
+.info p{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+}   
+ .info i{
+    margin-right: 10px;
+ }  
+   .btn-pink{
+    
+padding: 21px 40px;
+background-color: #FF42A5;
+font-size: 20px;
+font-weight: 600;
+color: #FFF;
+border-radius: 48px;
+margin-top: 20px;
+border: none;
+
+
+}
+.btn-skyblue{
+
+        padding: 21px 40px;
+        background-color: #4EC5F7;;
+        font-size: 20px;
+        font-weight: 600;
+        color: #FFF;
+        border-radius: 48px;
+        border: none;
+        margin-left: 20px;
+}
+
+   
+
+
+     
